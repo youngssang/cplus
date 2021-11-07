@@ -1,0 +1,37 @@
+C++ 
+실행에서
+dir = 새폴더 만들기
+
+시작창
+#include <iostream>
+using namespace std;
+int main() {
+return 0;
+}
+
+c++ documentation 홈페이지에서 참조
+
+cout << xx << xx << 으로 진행
+
+논리형bool
+while(true)
+
+
+<자료형 크기 비교>
+int      = 4byte     int의 최대값은 2147483647
+short   = 2byte
+long    = 4byte
+float    = 4byte
+double = 8byte
+char = 1byte       ch는 -128 ~ 127 까지 가능
+bool = 1byte
+
+
+아스키 코드 = 7bit = 128byte   2의 7제곱
+유니 코드 = 
+
+문자열 자료형
+string. 편리하게 사용 가능
+#include <string>
+문자 및 이름도 그냥 쓸 수 있음
+string name = "홍길동"; 처럼.
