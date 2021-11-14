@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main() {}
+------------------------------C++ 기본형식
+
+함수   (inline)
+inline int square(int x) { return x * x;}
+inline int min(int a, int b) { return a > b ? b : a; }
+
+변수의 영역(메모리)
+static int = 정적 변수 (고정되어있어, 프로그램이 종료되어야 해제됨.)
+#pragma once   = 중복된 애들 알아서 빼줌. 대신 비주얼 스튜디오에서만 가능
+
+
+구조체, 변수 = structure 
+struct 구조체이름()
+struct는 메인 위에 지정(입력)해야함.
+
+strcpy_s  의 헤더파일  :  cstring
+class에서는 string 으로 사용함.
+
+함수 분리하기 적용. (헤더파일 관리)
+
+생성자
